@@ -3,6 +3,7 @@
     <head>
         <title> Você já conheceu as cidades de "La casa de papel"?</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body> 
         <a href="./index.html">Português</a>
@@ -11,43 +12,47 @@
         <h1> Você conhece as cidades dos personagens de La Casa de Papel?</h1>
         <img src="https://filmtopp.imgix.net/media/2020/08/a1-3-e1585929279190.jpg?w=1600&h=675&crop=top&s=13d42440bd616fafdd44362a1c3ab0eb" alt="La Casa de Papel">
         <h3> Na série, cada personagem é conhecido pelo nome de uma cidade diferente. Quantas cidades você já conheceu? </h3>
-        <section id="check">
+        <section class="check">
             <div class="list">
                 <legend> Clique nas cidades que você já conheceu:</legend>
-                <input type="radio" id="toquio"name="cidades" value="toquio">
-                <label for="toquio">Tóquio</label> 
-                <input type="radio" id="rio"name="cidades" value="rio">
-                <label for="rio">Rio de Janeiro</label> 
-                <input type="radio" id="denver"name="cidades" value="denver">
-                <label for="denver">Denver</label> 
-                <input type="radio" id="estocolmo"name="cidades" value="estocolmo">
-                <label for="estocolmo">Estocolmo</label>
-                <input type="radio" id="lisboa"name="cidades" value="lisboa">
-                <label for="lisboa">Lisboa</label>
-                <input type="radio" id="nairobi"name="cidades" value="nairobi">  
-                <label for="nairobi">Nairóbi</label> 
-                <input type="radio" id="helsinki"name="cidades" value="helsinki">
-                <label for="helsinki">Helsinque</label> 
-                <input type="radio" id="berlim"name="cidades" value="berlim">
-                <label for="berlim">Berlim</label>
-                <input type="radio" id="moscou"name="cidades" value="moscou"> 
-                <label for="moscou">Moscou</label> 
-                <input type="radio" id="oslo"name="cidades" value="oslo">
-                <label for="oslo">Oslo</label> 
-                <input type="radio" id="palermo"name="cidades" value="palermo">
-                <label for="palermo">Palermo</label> 
-                <input type="radio" id="bogotá"name="cidades" value="bogotá">
-                <label for="bogotá">Bogotá</label> 
-                <input type="radio" id="manila"name="cidades" value="manila">
-                <label for="manila">Manila</label> 
-                <input type="radio" id="marselha"name="cidades" value="marselha">
-                <label for="marselha">Marselha</label> 
-                <input type="radio" id="pamplona"name="cidades" value="pamplona">
-                <label for="pamplona">Pamplona</label> 
+                <div class="cities">
+                    <input type="checkbox" id="city toquio"name="cidades" value="toquio">
+                    <label for="toquio">Tóquio</label> 
+                    <input type="checkbox" id="city rio"name="cidades" value="rio">
+                    <label for="rio">Rio de Janeiro</label> 
+                    <input type="checkbox" id="denver"name="cidades" value="denver">
+                    <label for="denver">Denver</label> 
+                    <input type="checkbox" id="estocolmo"name="cidades" value="estocolmo">
+                    <label for="estocolmo">Estocolmo</label>
+                    <input type="checkbox" id="lisboa"name="cidades" value="lisboa">
+                    <label for="lisboa">Lisboa</label>
+                    <input type="checkbox" id="nairobi"name="cidades" value="nairobi">  
+                    <label for="nairobi">Nairóbi</label> 
+                    <input type="checkbox" id="helsinki"name="cidades" value="helsinki">
+                    <label for="helsinki">Helsinque</label> 
+                    <input type="checkbox" id="berlim"name="cidades" value="berlim">
+                    <label for="berlim">Berlim</label>
+                    <input type="checkbox" id="moscou"name="cidades" value="moscou"> 
+                    <label for="moscou">Moscou</label> 
+                    <input type="checkbox" id="oslo"name="cidades" value="oslo">
+                    <label for="oslo">Oslo</label> 
+                    <input type="checkbox" id="palermo"name="cidades" value="palermo">
+                    <label for="palermo">Palermo</label> 
+                    <input type="checkbox" id="bogotá"name="cidades" value="bogotá">
+                    <label for="bogotá">Bogotá</label> 
+                    <input type="checkbox" id="manila"name="cidades" value="manila">
+                    <label for="manila">Manila</label> 
+                    <input type="checkbox" id="marselha"name="cidades" value="marselha">
+                    <label for="marselha">Marselha</label> 
+                    <input type="checkbox" id="pamplona"name="cidades" value="pamplona">
+                    <label for="pamplona">Pamplona</label> 
+                </div>
             </div>
-            <div class="map"></div>
+            <div class="map" id="map">
+            </div>
             <div class="personagem"></div>
         </section>
+        <br>
         <button type="submit" id="calcular"> Calcular cidades</button>
         <section>
             <h2> Tem interesse em saber mais sobre alguma dessas cidades?</h2>

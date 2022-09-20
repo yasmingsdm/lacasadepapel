@@ -15,8 +15,26 @@ h2,h3,p{
     text-align: center
 }
 
-#check{
-    column-count: 3;
+.check{
+    display:flex
+}
+
+@media (max-width:1024px){
+    .map, .personagem{
+        display:none
+    }
+    .cities{
+        display:flex ;
+        flex-direction: column;
+    }
+    #city{
+        border: 1px solid black
+    }
+}
+.map, .personagem{
+    border: 2px solid black;
+    width: 1024px;
+
 }
 
 #calcular{
