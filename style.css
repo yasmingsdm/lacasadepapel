@@ -1,14 +1,26 @@
+.inicio{
+display: flex
+}
+
+.idiomas{
+    margin-left: auto;
+}
+
+
 img{
+
     width: 400px;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: block;
+    transform: translateY(-50px)
 }
 
 h1{
     font-size: 50px;
-    text-align: center
+    text-align: center;
+    transform: translateY(-80px)
 }
 
 h2,h3,p{
@@ -19,10 +31,13 @@ h2,h3,p{
     display:flex
 }
 
+.list{
+    margin:auto
+}
+.cities{
+    column-count: 3;
+}
 @media (max-width:1024px){
-    .map, .personagem{
-        display:none
-    }
     .cities{
         display:flex ;
         flex-direction: column;
@@ -30,10 +45,6 @@ h2,h3,p{
     #city{
         border: 1px solid black
     }
-}
-.map, .personagem{
-    border: 2px solid black;
-    width: 1024px;
 
 }
 
@@ -60,14 +71,17 @@ a:hover{
     color: #8a795d
 
 }
-#e-mail{
+#e-mail, #escolhe-cidade{
     background-color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding:5px
+    padding:5px;
+    margin-top:10px
 }
-
+.saber-mais{
+    text-align: center;
+}
 #enviar{
     border-radius: 10px;
     display: block;
