@@ -1,0 +1,162 @@
+<html lang="en"> 
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title> Känner du städerna av "La casa de papel"?</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="svenskajs.js"></script>
+    </head>
+    <body> 
+        <header>
+            <nav>
+                <audio controls autoplay>
+                    <source src="./La Casa De Papel - Bella Ciao [Lyrics] (Money Heist) (320 kbps).mp3">
+                </audio>
+                <div class="idiomas">
+                    <a href="./index.html" >Português</a>
+                    <a href="./english.html" >English</a>
+                    <a href="./espanol.html" >Español</a>
+                    <a href="./svenska.html">Svenska</a>
+                </div>
+            </nav>
+            <h1> Känner du städerna av "La casa de papel"?</h1>
+            <img src="https://filmtopp.imgix.net/media/2020/08/a1-3-e1585929279190.jpg?w=1600&h=675&crop=top&s=13d42440bd616fafdd44362a1c3ab0eb" alt="La Casa de Papel">
+        </header>
+        <h3> I serien är varje karaktär känd under namnet på en annan stad. Hur många städer har du besökt? </h3>
+        <section class="check">
+            <div class="list">
+                <legend> klicka på städer du redan har besökt</legend>
+                <br>
+                <div class="cities">
+                    <div class="toquio">
+                        <input type="checkbox" id="toquio"name="cidades" value="toquio">
+                        <label for="toquio">Tokyo</label> 
+                    </div>
+                    <div class="rio">
+                        <input type="checkbox" id="rio"name="cidades" value="rio">
+                        <label for="rio">Rio de Janeiro</label> 
+                    </div>
+                    <div class="denver">
+                        <input type="checkbox" id="denver"name="cidades" value="denver">
+                        <label for="denver" >Denver</label> 
+                    </div>
+                    <div class="estocolmo">
+                        <input type="checkbox" id="estocolmo"name="cidades" value="estocolmo">
+                        <label for="estocolmo">Stockholm</label>
+                    </div>
+                    <div class="lisboa">
+                        <input type="checkbox" id="lisboa"name="cidades" value="lisboa">
+                        <label for="lisboa">Lissabon</label>
+                    </div>
+                    <div class="nairobi">
+                        <input type="checkbox" id="nairobi"name="cidades" value="nairobi">  
+                        <label for="nairobi">Nairobi</label> 
+                    </div>
+                    <div class="helsinki">
+                        <input type="checkbox" id="helsinki"name="cidades" value="helsinki">
+                        <label for="helsinki">Helsingfors</label> 
+                    </div>
+                    <div class="berlim">
+                        <input type="checkbox" id="berlim"name="cidades" value="berlim">
+                        <label for="berlim">Berlin</label>
+                    </div>
+                    <div class="moscou">
+                        <input type="checkbox" id="moscou"name="cidades" value="moscou"> 
+                        <label for="moscou">Moskva</label> 
+                    </div>
+                    <div class="oslo">
+                        <input type="checkbox" id="oslo"name="cidades" value="oslo">
+                        <label for="oslo">Oslo</label> 
+                    </div>
+                    <div class="palermo">
+                        <input type="checkbox" id="palermo"name="cidades" value="palermo">
+                        <label for="palermo">Palermo</label> 
+                    </div>
+                    <div class="bogota">
+                        <input type="checkbox" id="bogotá"name="cidades" value="bogotá">
+                        <label for="bogotá">Bogotá</label> 
+                    </div>
+                    <div class="manila">
+                        <input type="checkbox" id="manila"name="cidades" value="manila">
+                        <label for="manila">Manila</label>
+                    </div>
+                    <div class="marselha"> 
+                        <input type="checkbox" id="marselha"name="cidades" value="marselha">
+                        <label for="marselha">Marseille</label> 
+                    </div>
+                    <div class="pamplona">
+                        <input type="checkbox" id="pamplona"name="cidades" value="pamplona">
+                        <label for="pamplona">Pamplona</label> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <button type="submit" id="calcular" onclick="calcular()"> beräkna städer</button>
+        <section>
+            <h2> Vill du veta mer om några städer?</h2>
+            <div id="infoCidades">
+                <a href="https://sv.wikipedia.org/wiki/Tokyo" target="_blank">Tokyo</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Rio_de_Janeiro" target="_blank">Rio de Janeiro</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Denver" target="_blank">Denver</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Stockholm" target="_blank">Stockholm</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Lissabon" target="_blank">Lissabon</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Nairobi" target="_blank">Nairobi</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Helsingfors" target="_blank">Helsingfors</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Berlin" target="_blank">Berlin</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Moskva" target="_blank">Moskva</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Oslo" target="_blank">Oslo</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Palermo" target="_blank">Palermo</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Bogot%C3%A1" target="_blank">Bogotá</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Manila" target="_blank">Manila</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Marseille" target="_blank">Marseille</a>
+                <br>
+                <a href="https://sv.wikipedia.org/wiki/Pamplona" target="_blank">Pamplona</a>
+            </div>
+            <br>
+            <div class="saber-mais">
+                <label for="e-mail">Ange din e-postadress här om du är intresserad av att resa med oss ​​till någon av dessa destinationer så kontaktar vi dig</label>
+                <input type="text" placeholder="E-mail" required id="e-mail">
+                <br>
+                <label for="escolhe-cidade">Vilken stad skulle du vilja resa till?</label>
+                <select id="escolhe-cidade" name="cidade-escolhida" required >
+                    <option value="">Välja en stad</option>
+                    <option value="toquio">Tokyo</option>
+                    <option value="rio">Rio de Janeiro</option>
+                    <option value="denver">Denver</option>
+                    <option value="estocolmo">Stockholm</option>
+                    <option value="lisboa">Lissabon</option>
+                    <option value="nairobi">Nairobi</option>
+                    <option value="helsinque">Helsingfors</option>
+                    <option value="berlim">Berlin</option>
+                    <option value="moscou">Moskva</option>
+                    <option value="oslo">Oslo</option>
+                    <option value="palermo">Palermo</option>
+                    <option value="bogota">Bogotá</option>
+                    <option value="manila">Manila</option>
+                    <option value="marselha">Marseille</option>
+                    <option value="pamplona">Pamplona</option>
+                    <option value="todas">Jag vet inte än</option>
+                </select>
+                <br>
+                <button type="submit" id="enviar"> Skicka</button>
+            </div>
+        </section>
+        <footer>
+            <h6> Skapad av Yasmin</h6> 
+        </footer>
+    </body>
+    
+</html>
