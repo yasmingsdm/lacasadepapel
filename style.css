@@ -1,5 +1,10 @@
+*{
+    background-color: rgb(230,32,32);
+    font-family: "Comic Sans MS", "Comic Sans", Arial;
+}
+
 nav{
-display: flex
+    display: flex
 }
 
 nav .idiomas{
@@ -8,7 +13,6 @@ nav .idiomas{
 
 
 img{
-
     width: 400px;
     border-radius: 25px;
     margin-left: auto;
@@ -32,9 +36,11 @@ h2,h3,p{
 .list{
     margin:auto
 }
+
 .cities{
     column-count: 3;
 }
+
 @media (max-width:1024px){
     .cities{
         display:flex ;
@@ -43,7 +49,6 @@ h2,h3,p{
     #city{
         border: 1px solid black
     }
-
 }
 
 button{
@@ -56,19 +61,18 @@ button{
     background-color: white;
 }
 
-#infoCidades{
+.infoCity{
     column-count: 3;
 }
 
 a{
     color:#e3dac9
-
 }
 
 a:hover{
     color: #8a795d
-
 }
+
 #e-mail, #escolhe-cidade{
     background-color: white;
     display: block;
@@ -81,7 +85,4 @@ a:hover{
     text-align: center;
 }
 
-*{
-    background-color: rgb(230,32,32);
-    font-family: "Comic Sans MS", "Comic Sans", Arial;
-}
+
