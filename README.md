@@ -1,13 +1,18 @@
-### lacasadepapel
+## La Casa de Papel
 
-Neste arquivo crio uma página de viagens onde calcula quantas cidades da série La Casa de Papel a pessoa conhece e envia informações sobre cidades que ela tenha interesse em conhecer. Utilizei HTML, CSS e JavaScript.
-Site feito em 4 idiomas.
+This project goal's was to create a travel page where it calculates how many cities of La Casa de Papel series the person knows and sends information about cities that one has interest in knowing more.
 
-Você pode ver o site aqui: https://yasmingsdm.github.io/lacasadepapel/
+I used HTML, CSS and JavaScript.
+
+#### What I've practiced/learned:
+- Anchor to another page (HTML);
+- Audio (HTML);
+- Checkbox input (HTML);
+- Select (HTML);
+- Responsive design (CSS);
+- Hover effects(CSS);
+- Splice method (JavaScript);
+- If/else (JavaScript).
 
 
-
-Here I create a travel page where it calculates how many cities of La Casa de Papel series the person knows and sends information about cities that she/he has interest in knowing.I used HTML, CSS and JavaScript.
-Webpage made in 4 languages.
-
-You can see it here: https://yasmingsdm.github.io/lacasadepapel/
+You can check the project ready [here](https://yasmingsdm.github.io/lacasadepapel/)
